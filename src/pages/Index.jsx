@@ -1,29 +1,37 @@
-import { Container, Text, VStack, Box, Link } from "@chakra-ui/react";
+import { Container, Text, VStack, Box, Link, Heading } from "@chakra-ui/react";
 import { Link as RouterLink } from "react-router-dom";
 
 const Index = () => {
   return (
     <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="left" textAlign="left">
-      <VStack spacing={4}>
-        <Text fontSize="4xl" fontWeight="bold">Welcome to My Portfolio</Text>
-        <Text fontSize="lg" textAlign="left">
-          Hello! I'm an advertising creative specializing in both art direction and copywriting. Below are some of the brands I've worked with. Click on a brand to see my work.
+      <VStack spacing={4} align="left">
+        <Heading as="h1" size="4xl" fontWeight="bold">HI, I'M ROSE</Heading>
+        <Text fontSize="md" maxW="600px">
+          As a passionate web designer with years of experience, I specialize in creating clean and user-friendly designs that exceed client expectations. My commitment to delivering high-quality work ensures that each project is tailored to meet the unique needs of every client. Together, we can bring your vision to life quickly and efficiently.
         </Text>
+        <Heading as="h2" size="md" fontWeight="bold">SELECTED WORK</Heading>
         <Box>
-          <Link as={RouterLink} to="/brand1" color="hotpink" fontSize="lg">Brand 1</Link>
+          <Text as="span" fontSize="lg" fontWeight="bold">01</Text>
+          <Link as={RouterLink} to="/brand1" fontSize="4xl" fontWeight="bold" ml={2}>KEW GARDEN</Link>
         </Box>
         <Box>
-          <Link as={RouterLink} to="/brand2" color="hotpink" fontSize="lg">Brand 2</Link>
+          <Text as="span" fontSize="lg" fontWeight="bold">02</Text>
+          <Link as={RouterLink} to="/brand2" fontSize="4xl" fontWeight="bold" ml={2}>BRAND 2</Link>
         </Box>
         <Box>
-          <Link as={RouterLink} to="/brand3" color="hotpink" fontSize="lg">Brand 3</Link>
+          <Text as="span" fontSize="lg" fontWeight="bold">03</Text>
+          <Link as={RouterLink} to="/brand3" fontSize="4xl" fontWeight="bold" ml={2}>BRAND 3</Link>
         </Box>
         <Box>
-          <Link as={RouterLink} to="/brand4" color="hotpink" fontSize="lg">Brand 4</Link>
+          <Text as="span" fontSize="lg" fontWeight="bold">04</Text>
+          <Link as={RouterLink} to="/brand4" fontSize="4xl" fontWeight="bold" ml={2}>BRAND 4</Link>
         </Box>
         <Box>
-          <Link as={RouterLink} to="/brand5" color="hotpink" fontSize="lg">Brand 5</Link>
+          <Text as="span" fontSize="lg" fontWeight="bold">05</Text>
+          <Link as={RouterLink} to="/brand5" fontSize="4xl" fontWeight="bold" ml={2}>BRAND 5</Link>
         </Box>
+        <Heading as="h2" size="md" fontWeight="bold">CONTACT ME</Heading>
+        <Text fontSize="2xl" fontWeight="bold" textDecoration="underline">LET'S WORK TOGETHER!</Text>
       </VStack>
     </Container>
   );
