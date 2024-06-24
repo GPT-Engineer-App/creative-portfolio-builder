@@ -9,7 +9,7 @@ const Index = () => {
         <Text fontSize="md" maxW="600px">
           As a passionate web designer with years of experience, I specialize in creating clean and user-friendly designs that exceed client expectations. My commitment to delivering high-quality work ensures that each project is tailored to meet the unique needs of every client. Together, we can bring your vision to life quickly and efficiently.
         </Text>
-        <Heading as="h2" size="md" fontWeight="bold">SELECTED WORK</Heading>
+        <Heading as="h2" size="md" fontWeight="bold" mt={8}>SELECTED WORK</Heading>
         <Box>
           <Text as="span" fontSize="lg" fontWeight="bold">01</Text>
           <Link as={RouterLink} to="/brand1" fontSize="4xl" fontWeight="bold" ml={2}>KEW GARDEN</Link>
