@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 import "@fontsource/roboto";
+import "@fontsource/lobster";
 
 const colors = {
   brand: {
@@ -16,8 +17,8 @@ const colors = {
 const theme = extendTheme({
   colors,
   fonts: {
-    heading: "Roboto, sans-serif",
-    body: "Roboto, sans-serif",
+    heading: "Lobster, sans-serif",
+    body: "Lobster, sans-serif",
   },
 });
 
