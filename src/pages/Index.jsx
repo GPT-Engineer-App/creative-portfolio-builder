@@ -3,10 +3,10 @@ import { Link as RouterLink } from "react-router-dom";
 
 const Index = () => {
   return (
-    <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
+    <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="flex-start" textAlign="left">
       <VStack spacing={4}>
-        <Text fontSize="2xl">Welcome to My Portfolio</Text>
-        <Text textAlign="center">
+        <Text fontSize="4xl" fontWeight="bold">Welcome to My Portfolio</Text>
+        <Text fontSize="lg" textAlign="left">
           Hello! I'm an advertising creative specializing in both art direction and copywriting. Below are some of the brands I've worked with. Click on a brand to see my work.
         </Text>
         <Box>
