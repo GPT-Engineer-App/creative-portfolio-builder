@@ -3,7 +3,7 @@ import { Link as RouterLink } from "react-router-dom";
 
 const Index = () => {
   return (
-    <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="left" textAlign="left">
+    <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="left" textAlign="left" mt={4}>
       <VStack spacing={4} align="left">
         <Heading as="h1" size="4xl" fontWeight="bold">HI, I'M ROSE</Heading>
         <Text fontSize="md" maxW="600px">
