@@ -82,7 +82,7 @@ const Navbar = () => {
       </Flex>
       {hoveredBrand && (
         <Box position="absolute" right="10px" top="50%" transform="translateY(-50%)">
-          <img src={imageUrl} alt={hoveredBrand} style={{ width: "100px", height: "auto" }} />
+          <img src={imageUrl} alt={hoveredBrand} style={{ width: "200px", height: "auto", position: "absolute", right: "0", top: "50%", transform: "translateY(-50%)" }} />
         </Box>
       )}
     </Box>
