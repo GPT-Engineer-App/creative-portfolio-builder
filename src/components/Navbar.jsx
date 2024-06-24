@@ -3,7 +3,7 @@ import { Link as RouterLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <Box bg="hotpink" px={4} py={2}>
+    <Box bg="hotpink" px={4} py={2} mb={4}>
       <Flex h={16} alignItems="center" justifyContent="space-between">
         <Box>
           <Link as={RouterLink} to="/" color="white" fontSize="lg" fontWeight="bold">Home</Link>
